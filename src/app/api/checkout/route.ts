@@ -2,6 +2,7 @@ import { getBlackAuthHeader } from "@/lib/checkout/black-payment"
 import { NextRequest, NextResponse } from "next/server"
 
 export async function POST(req: NextRequest) {
+    console.log("CHECKOUT API V2 RODANDO")
     try {
         const body = await req.json()
         const { cart, customer } = body
@@ -54,7 +55,7 @@ export async function POST(req: NextRequest) {
                 items: cart.items.length,
             }),
 
-            returnUrl: `${baseUrl}/meus-pedidos?success=true`,
+            returnUrl: `${baseUrl}/shoppings?success=true`,
             postbackUrl: `${baseUrl}/api/webhook/black`,
         }
 

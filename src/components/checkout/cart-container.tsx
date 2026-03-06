@@ -32,7 +32,7 @@ export default function CartContainer() {
             if (!userCpf) {
                 console.warn("Usuário sem CPF no cadastro")
             }
-
+            console.log("ITEMS NO CHECKOUT:", items)
             const response = await fetch("/api/checkout", {
                 method: "POST",
                 headers: {
