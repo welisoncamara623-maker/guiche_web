@@ -80,21 +80,21 @@ export const EVENTS = [
                         id: "premium-go-solidaria",
                         name: "Premium (Solidária)",
                         lote: "3º LOTE + 1KG DE ALIMENTO",
-                        price: 540,
+                        price: 119.90,
                         saibaMais: true
                     },
                     {
                         id: "premium-go-meia",
                         name: "Premium (Meia)",
                         lote: "3º LOTE",
-                        price: 540,
+                        price: 149.90,
                         info: true
                     },
                     {
                         id: "premium-go-inteira",
                         name: "Premium (Inteira)",
                         lote: "3º LOTE",
-                        price: 1080
+                        price: 169.90
                     }
                 ]
             },
@@ -109,13 +109,13 @@ export const EVENTS = [
                         id: "camarote-solidaria-go",
                         name: "Camarote (Solidária)",
                         lote: "1º LOTE",
-                        price: 900
+                        price: 279.99
                     },
                     {
                         id: "camarote-inteira-go",
                         name: "Camarote (Inteira)",
                         lote: "1º LOTE",
-                        price: 1500
+                        price: 394.99
                     }
                 ]
             },
@@ -129,13 +129,13 @@ export const EVENTS = [
                         id: "vip-solidaria-go",
                         name: "Extra VIP (Solidária)",
                         lote: "1º LOTE",
-                        price: 600
+                        price: 349.99
                     },
                     {
                         id: "vip-inteira-go",
                         name: "Extra VIP (Inteira)",
                         lote: "1º LOTE",
-                        price: 950
+                        price: 499.90
                     }
                 ]
             }
@@ -165,7 +165,7 @@ export const EVENTS = [
                         id: "camarote-sala-solidaria-mg",
                         name: "Premium na sala (Solidária)",
                         lote: "4º LOTE + 1KG DE ALIMENTO",
-                        price: 700,
+                        price: 99.99,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -173,7 +173,7 @@ export const EVENTS = [
                         id: "camarote-sala-meia-mg",
                         name: "Camarote na sala (Meia)",
                         lote: "4º LOTE",
-                        price: 685,
+                        price: 139.99,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -207,7 +207,7 @@ export const EVENTS = [
                         id: "gramado-solidaria-mg",
                         name: "Gramado (Solidária)",
                         lote: "3º LOTE + 1KG DE ALIMENTO",
-                        price: 240,
+                        price: 249.90,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -215,7 +215,7 @@ export const EVENTS = [
                         id: "gramado-meia-mg",
                         name: "Gramado (Meia)",
                         lote: "3º LOTE",
-                        price: 225,
+                        price: 229.90,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -223,7 +223,7 @@ export const EVENTS = [
                         id: "gramado-inteira-mg",
                         name: "Gramado (Inteira)",
                         lote: "3º LOTE",
-                        price: 480,
+                        price: 499.90,
                         saibaMais: false,
                         esgoted: false
                     }
@@ -239,7 +239,7 @@ export const EVENTS = [
                         id: "arquibancada-solidaria-mg",
                         name: "Arquibancada (Solidária)",
                         lote: "5º LOTE + 1KG DE ALIMENTO",
-                        price: 90,
+                        price: 89.90,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -247,7 +247,7 @@ export const EVENTS = [
                         id: "arquibancada-meia-mg",
                         name: "Arquibancada (Meia)",
                         lote: "5º LOTE",
-                        price: 84,
+                        price: 89.90,
                         SaibaMais: true,
                         esgoted: false
                     },
@@ -255,7 +255,7 @@ export const EVENTS = [
                         id: "arquibancada-inteira-mg",
                         name: "Arquibancada (Inteira)",
                         lote: "4º LOTE",
-                        price: 180,
+                        price: 189.90,
                         saibaMais: false,
                         esgoted: false
                     }
@@ -274,7 +274,34 @@ export const EVENTS = [
         city: "Mercado Livre Arena Pacaembu",
         locationImage: "/locations/location_show_sp.jpg",
         date: "01/08/2026",
-        sectors: []
+        sectors: [
+            {
+                id: "premium-mg",
+                color: "bg-blue-500",
+                title: "Camarote na sala",
+                description:
+                    "Open Bar: Cerveja, Vodka, Gin, Whisky, Refrigerante, Tônica e Água.",
+                tickets: [
+                    {
+                        id: "camarote-sala-solidaria-mg",
+                        name: "Premium na sala (Solidária)",
+                        lote: "4º LOTE + 1KG DE ALIMENTO",
+                        price: 199.90,
+                        saibaMais: true,
+                        esgoted: false
+                    },
+                    {
+                        id: "camarote-sala-meia-mg",
+                        name: "Camarote na sala (Meia)",
+                        lote: "4º LOTE",
+                        price: 239.90,
+                        saibaMais: true,
+                        esgoted: false
+                    },
+
+                ]
+            },
+        ]
     },
     {
         ...baseEvent,
@@ -300,7 +327,7 @@ export const EVENTS = [
                         id: "frontstage-solidaria-sp",
                         name: "Frontstage (Solidária)",
                         lote: "4º LOTE + 1KG DE ALIMENTO",
-                        price: 660,
+                        price: 339.50,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -308,7 +335,7 @@ export const EVENTS = [
                         id: "frontstage-meia-sp",
                         name: "Frontstage (Meia)",
                         lote: "4º LOTE",
-                        price: 550,
+                        price: 339.50,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -316,7 +343,7 @@ export const EVENTS = [
                         id: "frontstage-inteira-sp",
                         name: "Frontstage (Inteira)",
                         lote: "4º LOTE",
-                        price: 1200,
+                        price: 339.50,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -334,7 +361,7 @@ export const EVENTS = [
                         id: "frontstage-solidaria-sp",
                         name: "Premiun (Solidária)",
                         lote: "4º LOTE + 1KG DE ALIMENTO",
-                        price: 440,
+                        price: 449.90,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -342,7 +369,7 @@ export const EVENTS = [
                         id: "frontstage-meia-sp",
                         name: "Premiun (Meia)",
                         lote: "4º LOTE",
-                        price: 430,
+                        price: 429.90,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -350,7 +377,7 @@ export const EVENTS = [
                         id: "frontstage-inteira-sp",
                         name: "Frontstage (Inteira)",
                         lote: "4º LOTE",
-                        price: 860,
+                        price: 499.90,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -368,7 +395,7 @@ export const EVENTS = [
                         id: "espaco-familia-sp",
                         name: "Espaço familia (Solidária)",
                         lote: "4º LOTE + 1KG DE ALIMENTO",
-                        price: 130,
+                        price: 139.99,
                         saibaMais: true,
                         esgoted: true
                     },
@@ -386,7 +413,7 @@ export const EVENTS = [
                         id: "cadeira-leste-sp",
                         name: "Frontstage (Solidária)",
                         lote: "4º LOTE + 1KG DE ALIMENTO",
-                        price: 235,
+                        price: 235.55,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -403,7 +430,7 @@ export const EVENTS = [
                         id: "cadeira-oeste-solidaria-sp",
                         name: "Cadeira oeste (Solidária)",
                         lote: "5º LOTE + 1KG DE ALIMENTO",
-                        price: 235,
+                        price: 265.55,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -434,7 +461,7 @@ export const EVENTS = [
                         id: "arena-vip-pe",
                         name: "Arena vip (Solidária)",
                         lote: "2º LOTE + 1KG DE ALIMENTO",
-                        price: 120,
+                        price: 129.90,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -442,7 +469,7 @@ export const EVENTS = [
                         id: "arena-vip-meia-pe",
                         name: "Arena vip (Meia)",
                         lote: "2º LOTE",
-                        price: 110,
+                        price: 119.90,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -450,7 +477,7 @@ export const EVENTS = [
                         id: "arena-vip-inteira-pe",
                         name: "Arena vip (Inteira)",
                         lote: "2º LOTE",
-                        price: 220,
+                        price: 229.90,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -468,7 +495,7 @@ export const EVENTS = [
                         id: "open-bar-pe",
                         name: "Open bar",
                         lote: "3º LOTE ",
-                        price: 300,
+                        price: 339.90,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -486,7 +513,7 @@ export const EVENTS = [
                         id: "espaco-wedo-pe",
                         name: "Espaço  wedo",
                         lote: "2º LOTE",
-                        price: 630,
+                        price: 345.60,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -519,7 +546,7 @@ export const EVENTS = [
                         id: "pista-solidaria-am",
                         name: "Pista (Solidária)",
                         lote: "4º LOTE + 1KG DE ALIMENTO",
-                        price: 130,
+                        price: 139.90,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -527,7 +554,7 @@ export const EVENTS = [
                         id: "pista-meia-am",
                         name: "Pista (Meia)",
                         lote: "4º LOTE",
-                        price: 130,
+                        price: 139.90,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -535,7 +562,7 @@ export const EVENTS = [
                         id: "pista-inteira-am",
                         name: "Pista (Inteira)",
                         lote: "4º LOTE",
-                        price: 260,
+                        price: 269.90,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -553,7 +580,7 @@ export const EVENTS = [
                         id: "area-vip-solidaria-am",
                         name: "Área vip (Solidária)",
                         lote: "6º LOTE ",
-                        price: 465,
+                        price: 222.50,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -561,7 +588,7 @@ export const EVENTS = [
                         id: "area-vip-meia-am",
                         name: "Área vip (Meia)",
                         lote: "6º LOTE ",
-                        price: 465,
+                        price: 222.50,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -569,7 +596,7 @@ export const EVENTS = [
                         id: "area-vip-inteira-am",
                         name: "Área vip (Inteira)",
                         lote: "6º LOTE ",
-                        price: 930,
+                        price: 465.50,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -586,7 +613,7 @@ export const EVENTS = [
                         id: "extra-vip-solidaria-am",
                         name: "Extra VIP (Solidária)",
                         lote: "4º LOTE",
-                        price: 945,
+                        price: 425.50,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -594,7 +621,7 @@ export const EVENTS = [
                         id: "extra-vip-meia-am",
                         name: "Extra VIP (Meia)",
                         lote: "4º LOTE",
-                        price: 945,
+                        price: 425.50,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -602,7 +629,7 @@ export const EVENTS = [
                         id: "extra-vip-inteira-am",
                         name: "Extra VIP (Inteira)",
                         lote: "4º LOTE",
-                        price: 1290,
+                        price: 450.50,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -619,7 +646,7 @@ export const EVENTS = [
                         id: "camarote-arena-solidaria228-am",
                         name: "Camarote arena (Solidária)",
                         lote: "CAMAROTE 228 - LOTE UNICO + 1KG DE ALIMENTO",
-                        price: 500,
+                        price: 109,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -627,7 +654,7 @@ export const EVENTS = [
                         id: "camarote-arena-solidaria239-am",
                         name: "Extra VIP (Solidária)",
                         lote: "CAMAROTE 239 - LOTE UNICO + 1KG DE ALIMENTO",
-                        price: 500,
+                        price: 109,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -635,7 +662,7 @@ export const EVENTS = [
                         id: "camarote-arena-meia-am",
                         name: "Camarote arena (Meia)",
                         lote: "CAMAROTE 228 - LOTE UNICO",
-                        price: 500,
+                        price: 109,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -643,7 +670,7 @@ export const EVENTS = [
                         id: "camarote-arena-inteira-am",
                         name: "Camarote arena (Inteira)",
                         lote: "CAMAROTE 228 - LOTE UNICO",
-                        price: 1000,
+                        price: 229,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -675,7 +702,7 @@ export const EVENTS = [
                         id: "open-bar-solidaria-es",
                         name: "Open bar (Solidária)",
                         lote: "4. LOTE + 1KG DE ALIMENTO",
-                        price: 650,
+                        price: 345.90,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -683,7 +710,7 @@ export const EVENTS = [
                         id: "open-bar-meia-es",
                         name: "Open bar (Meia)",
                         lote: "4. LOTE",
-                        price: 650,
+                        price: 345.90,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -691,7 +718,7 @@ export const EVENTS = [
                         id: "open-bar-inteira-es",
                         name: "Open bar (Inteira)",
                         lote: "4. LOTE",
-                        price: 1300,
+                        price: 499.90,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -708,7 +735,7 @@ export const EVENTS = [
                         id: "frontstage-solidaria-es",
                         name: "Frontstage (Solidária)",
                         lote: "3. LOTE + 1KG DE ALIMENTO",
-                        price: 360,
+                        price: 369.90,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -716,7 +743,7 @@ export const EVENTS = [
                         id: "frontstage-meia-es",
                         name: "Frontstage (Meia)",
                         lote: "3º LOTE ",
-                        price: 360,
+                        price: 369.90,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -724,7 +751,7 @@ export const EVENTS = [
                         id: "frontstage-inteira-es",
                         name: "Frontstage (Inteira)",
                         lote: "3º LOTE ",
-                        price: 720,
+                        price: 599.90,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -741,7 +768,7 @@ export const EVENTS = [
                         id: "area-vip-solidaria-es",
                         name: "Área vip (Solidária)",
                         lote: "3. LOTE + 1KG DE ALIMENTO",
-                        price: 190,
+                        price: 190.99,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -749,7 +776,7 @@ export const EVENTS = [
                         id: "area-vip-meia-es",
                         name: "Área vip (Meia)",
                         lote: "3º LOTE",
-                        price: 190,
+                        price: 190.99,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -757,7 +784,7 @@ export const EVENTS = [
                         id: "area-vip-inteira-es",
                         name: "Área vip (Inteira)",
                         lote: "3º LOTE",
-                        price: 380,
+                        price: 389.99,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -835,7 +862,7 @@ export const EVENTS = [
                         id: "backstage-all-inclusive-solidario-rs",
                         name: "Backstage All Inclusive (Solidário)",
                         lote: "4. LOTE + 1KG DE ALIMENTO",
-                        price: 1020,
+                        price: 299.99,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -843,7 +870,7 @@ export const EVENTS = [
                         id: "backstage-all-inclusive-meia-rs",
                         name: "Backstage (Meia)",
                         lote: "4. LOTE",
-                        price: 1020,
+                        price: 299.99,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -851,7 +878,7 @@ export const EVENTS = [
                         id: "backstage-all-inclusive-inteira-rs",
                         name: "Backstage (Inteira)",
                         lote: "4. LOTE",
-                        price: 2400,
+                        price: 499.99,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -868,7 +895,7 @@ export const EVENTS = [
                         id: "frontstage-solidario",
                         name: "Frontstage Open Bar (Solidário)",
                         lote: "3. LOTE + 1KG DE ALIMENTO",
-                        price: 430,
+                        price: 430.90,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -876,7 +903,7 @@ export const EVENTS = [
                         id: "frontstage-meia",
                         name: "Frontstage Open Bar (Meia)",
                         lote: "3. LOTE",
-                        price: 410,
+                        price: 410.90,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -884,7 +911,7 @@ export const EVENTS = [
                         id: "frontstage-inteira",
                         name: "Frontstage Open Bar (Inteira)",
                         lote: "3. LOTE",
-                        price: 820,
+                        price: 599.90,
                         saibaMais: false,
                         esgoted: false
                     }
@@ -900,7 +927,7 @@ export const EVENTS = [
                         id: "cadeira-edvaldo-solidario",
                         name: "Cadeira Open Bar - Edvaldo (Solidário)",
                         lote: "3. LOTE + 1KG DE ALIMENTO",
-                        price: 320,
+                        price: 321,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -908,7 +935,7 @@ export const EVENTS = [
                         id: "cadeira-edvaldo-meia",
                         name: "Cadeira Open Bar - Edvaldo (Meia)",
                         lote: "3. LOTE",
-                        price: 300,
+                        price: 321,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -932,7 +959,7 @@ export const EVENTS = [
                         id: "cadeira-padre-solidario",
                         name: "Cadeira Open Bar - Padre Cacique (Solidário)",
                         lote: "4. LOTE + 1KG DE ALIMENTO",
-                        price: 310,
+                        price: 310.50,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -940,7 +967,7 @@ export const EVENTS = [
                         id: "cadeira-padre-meia",
                         name: "Cadeira Open Bar - Padre Cacique (Meia)",
                         lote: "4. LOTE",
-                        price: 290,
+                        price: 290.50,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -948,7 +975,7 @@ export const EVENTS = [
                         id: "cadeira-padre-inteira",
                         name: "Cadeira Open Bar - Padre Cacique (Inteira)",
                         lote: "4. LOTE",
-                        price: 580,
+                        price: 480.50,
                         saibaMais: false,
                         esgoted: false
                     }
@@ -964,7 +991,7 @@ export const EVENTS = [
                         id: "extra-vip-solidario",
                         name: "Extra VIP (Solidário)",
                         lote: "3. LOTE + 1KG DE ALIMENTO",
-                        price: 130,
+                        price: 130.99,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -972,7 +999,7 @@ export const EVENTS = [
                         id: "extra-vip-meia",
                         name: "Extra VIP (Meia)",
                         lote: "3. LOTE",
-                        price: 120,
+                        price: 120.99,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -980,7 +1007,7 @@ export const EVENTS = [
                         id: "extra-vip-inteira",
                         name: "Extra VIP (Inteira)",
                         lote: "3. LOTE",
-                        price: 240,
+                        price: 240.99,
                         saibaMais: false,
                         esgoted: false
                     }
@@ -996,7 +1023,7 @@ export const EVENTS = [
                         id: "cadeira-sup-solidario",
                         name: "Cadeira Superior (Solidário)",
                         lote: "2. LOTE + 1KG DE ALIMENTO",
-                        price: 70,
+                        price: 70.15,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -1004,7 +1031,7 @@ export const EVENTS = [
                         id: "cadeira-sup-meia",
                         name: "Cadeira Superior (Meia)",
                         lote: "2. LOTE",
-                        price: 60,
+                        price: 60.15,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -1012,7 +1039,7 @@ export const EVENTS = [
                         id: "cadeira-sup-inteira",
                         name: "Cadeira Superior (Inteira)",
                         lote: "2. LOTE",
-                        price: 120,
+                        price: 120.15,
                         saibaMais: false,
                         esgoted: false
                     }
@@ -1061,7 +1088,7 @@ export const EVENTS = [
                         id: "camarote-solidario-pr",
                         name: "Camarote (Solidária)",
                         lote: "5. LOTE + 1KG DE ALIMENTO",
-                        price: 540.00,
+                        price: 340.00,
                         saibaMais: true,
                         esgoted: false // Conforme imagem
                     }
@@ -1077,7 +1104,7 @@ export const EVENTS = [
                         id: "premium-meia-pr",
                         name: "Premium Open Bar (Meia)",
                         lote: "6. LOTE",
-                        price: 500.00,
+                        price: 120.00,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -1085,7 +1112,7 @@ export const EVENTS = [
                         id: "premium-solidario-pr",
                         name: "Premium Open Bar (Solidária)",
                         lote: "6. LOTE + 1KG DE ALIMENTO",
-                        price: 600.00,
+                        price: 220.00,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -1093,7 +1120,7 @@ export const EVENTS = [
                         id: "premium-inteira-pr",
                         name: "Premium Open Bar (Inteira)",
                         lote: "6. LOTE",
-                        price: 1000.00,
+                        price: 420.00,
                         saibaMais: false,
                         esgoted: false
                     }
@@ -1109,7 +1136,7 @@ export const EVENTS = [
                         id: "stage-floor-meia-pr",
                         name: "Stage Floor (Meia)",
                         lote: "4. LOTE",
-                        price: 1500.00,
+                        price: 329.90,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -1117,7 +1144,7 @@ export const EVENTS = [
                         id: "stage-floor-solidario-pr",
                         name: "Stage Floor (Solidária)",
                         lote: "4. LOTE + 1KG DE ALIMENTO",
-                        price: 1800.00,
+                        price: 429.90,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -1125,7 +1152,7 @@ export const EVENTS = [
                         id: "stage-floor-inteira-pr",
                         name: "Stage Floor (Inteira)",
                         lote: "4. LOTE",
-                        price: 3000.00,
+                        price: 529.90,
                         saibaMais: false,
                         esgoted: false
                     }
@@ -1149,7 +1176,7 @@ export const EVENTS = [
         sectors: [
             {
                 id: "arena-salvador",
-                color: "bg-[#b8cc81]", // Verde oliva claro conforme imagem
+                color: "bg-[#b8cc81]",
                 title: "Arena",
                 description: "",
                 tickets: [
@@ -1197,7 +1224,7 @@ export const EVENTS = [
                         id: "area-vip-solidaria-ba",
                         name: "Área VIP (Solidária)",
                         lote: "6 LOTE + 1KG DE ALIMENTO",
-                        price: 230.00,
+                        price: 230.90,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -1205,7 +1232,7 @@ export const EVENTS = [
                         id: "area-vip-meia-ba",
                         name: "Área VIP (Meia)",
                         lote: "6 LOTE",
-                        price: 220.00,
+                        price: 220.90,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -1213,7 +1240,7 @@ export const EVENTS = [
                         id: "area-vip-inteira-ba",
                         name: "Área VIP (Inteira)",
                         lote: "6 LOTE",
-                        price: 440.00,
+                        price: 440.90,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -1221,7 +1248,7 @@ export const EVENTS = [
                         id: "area-vip-pcd-ba",
                         name: "Área VIP (PCD)",
                         lote: "6 LOTE",
-                        price: 220.00,
+                        price: 220.90,
                         saibaMais: false,
                         esgoted: false
                     }
@@ -1229,7 +1256,7 @@ export const EVENTS = [
             },
             {
                 id: "open-bar-salvador",
-                color: "bg-[#6d4da3]", // Roxo conforme imagem
+                color: "bg-[#6d4da3]",
                 title: "Open Bar +18",
                 description: "Open Bar de Cerveja, Vodka, Gin, Água Tônica, Refrigerante e Água.",
                 tickets: [
@@ -1237,7 +1264,7 @@ export const EVENTS = [
                         id: "open-bar-unico-ba",
                         name: "Open Bar (Único)",
                         lote: "4 LOTE",
-                        price: 420.00,
+                        price: 320.00,
                         saibaMais: false,
                         esgoted: false
                     }
@@ -1245,7 +1272,7 @@ export const EVENTS = [
             },
             {
                 id: "front-plus-salvador",
-                color: "bg-[#a674a6]", // Lilás/Ametista conforme imagem
+                color: "bg-[#a674a6]",
                 title: "Front +18",
                 description: "Open Bar de Cerveja, Vodka, Whisky 12 anos, Gin, Energético, Suco, Refrigerante, Tônica e Água.",
                 tickets: [
@@ -1253,7 +1280,7 @@ export const EVENTS = [
                         id: "front-unico-ba",
                         name: "Front (Único)",
                         lote: "4 LOTE",
-                        price: 950.00,
+                        price: 225.99,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -1261,7 +1288,7 @@ export const EVENTS = [
                         id: "front-pcd-ba",
                         name: "Front (PCD)",
                         lote: "4 LOTE",
-                        price: 950.00,
+                        price: 225.99,
                         saibaMais: false,
                         esgoted: false
                     }
@@ -1294,7 +1321,7 @@ export const EVENTS = [
                         id: "pista-premium-solidaria-ce",
                         name: "Pista Premium (Solidária)",
                         lote: "5 LOTE + 1KG DE ALIMENTO",
-                        price: 240.00,
+                        price: 240.90,
                         saibaMais: true,
                         esgoted: true
                     }
@@ -1310,7 +1337,7 @@ export const EVENTS = [
                         id: "front-open-solidaria-ce",
                         name: "Front Open (Solidária)",
                         lote: "5 LOTE + 1KG DE ALIMENTO",
-                        price: 550.00,
+                        price: 390.00,
                         saibaMais: true,
                         esgoted: true // Conforme imagem
                     }
@@ -1326,7 +1353,7 @@ export const EVENTS = [
                         id: "arq-inferior-solidaria-ce",
                         name: "Arquibancada Inferior (Solidária)",
                         lote: "4 LOTE + 1KG DE ALIMENTO",
-                        price: 140.00,
+                        price: 249.40,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -1334,7 +1361,7 @@ export const EVENTS = [
                         id: "arq-inferior-meia-ce",
                         name: "Arquibancada Inferior (Meia)",
                         lote: "4 LOTE",
-                        price: 140.00,
+                        price: 249.40,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -1342,7 +1369,7 @@ export const EVENTS = [
                         id: "arq-inferior-inteira-ce",
                         name: "Arquibancada Inferior (Inteira)",
                         lote: "4 LOTE",
-                        price: 280.00,
+                        price: 280.80,
                         saibaMais: false,
                         esgoted: false
                     }
@@ -1358,7 +1385,7 @@ export const EVENTS = [
                         id: "arq-superior-solidaria-ce",
                         name: "Arquibancada Superior (Solidária)",
                         lote: "2 LOTE + 1KG DE ALIMENTO",
-                        price: 50.00,
+                        price: 55.00,
                         saibaMais: true,
                         esgoted: false
                     },
@@ -1366,7 +1393,7 @@ export const EVENTS = [
                         id: "arq-superior-meia-ce",
                         name: "Arquibancada Superior (Meia)",
                         lote: "2 LOTE",
-                        price: 50.00,
+                        price: 55.00,
                         saibaMais: false,
                         esgoted: false
                     },
@@ -1374,7 +1401,7 @@ export const EVENTS = [
                         id: "arq-superior-inteira-ce",
                         name: "Arquibancada Superior (Inteira)",
                         lote: "2 LOTE",
-                        price: 100.00,
+                        price: 110.00,
                         saibaMais: false,
                         esgoted: false
                     }
