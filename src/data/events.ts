@@ -193,7 +193,7 @@ export const EVENTS = [
                         lote: "5º LOTE + 1KG DE ALIMENTO",
                         price: 450,
                         saibaMais: true,
-                        esgoted: true
+                        esgoted: false
                     },
                 ]
             },
@@ -397,7 +397,7 @@ export const EVENTS = [
                         lote: "4º LOTE + 1KG DE ALIMENTO",
                         price: 139.99,
                         saibaMais: true,
-                        esgoted: true
+                        esgoted: false
                     },
 
                 ]
@@ -1108,7 +1108,7 @@ export const EVENTS = [
                         lote: "6. LOTE + 1KG DE ALIMENTO",
                         price: 204.00,
                         saibaMais: true,
-                        esgoted: true // Conforme imagem
+                        esgoted: false // Conforme imagem
                     }
                 ]
             },
@@ -1357,7 +1357,7 @@ export const EVENTS = [
                         lote: "5 LOTE + 1KG DE ALIMENTO",
                         price: 240.90,
                         saibaMais: true,
-                        esgoted: true
+                        esgoted: false
                     }
                 ]
             },
@@ -1373,7 +1373,7 @@ export const EVENTS = [
                         lote: "5 LOTE + 1KG DE ALIMENTO",
                         price: 390.00,
                         saibaMais: true,
-                        esgoted: true // Conforme imagem
+                        esgoted: false // Conforme imagem
                     }
                 ]
             },
