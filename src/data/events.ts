@@ -837,7 +837,41 @@ export const EVENTS = [
         city: "Arena BRB Mané Garrincha",
         locationImage: "/locations/location_show_df.jpg",
         date: "19/09/2026",
-        sectors: []
+        sectors: [
+            {
+                id: "cadeira-ab-es",
+                color: "bg-zinc-700",
+                title: "Cadeira AB",
+                description: "",
+                tickets: [
+                    {
+                        id: "cadeira-ab-solidaria-es",
+                        name: "Cadeira AB (Solidária)",
+                        lote: "2. LOTE + 1KG DE ALIMENTO",
+                        price: 229.90,
+                        saibaMais: true,
+                        esgoted: false
+                    },
+                    {
+                        id: "cadeira-ab-meia-es",
+                        name: "Cadeira AB (Meia)",
+                        lote: "2.LOTE",
+                        price: 259.99,
+                        saibaMais: false,
+                        esgoted: false
+                    },
+                    {
+                        id: "cadeira-ab-inteira-es",
+                        name: "Cadeira AB (Inteira)",
+                        lote: "2. LOTE",
+                        price: 299.99,
+                        saibaMais: false,
+                        esgoted: false
+                    },
+
+                ]
+            },
+        ]
     },
     {
         ...baseEvent,
